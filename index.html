@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Описание проекта">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preload" href="fonts/exo2.0_extralight.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/exo2.0_extralight.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/TrebuchetMS-Bold.woff" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/TrebuchetMS-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/TrebuchetMS.woff" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/TrebuchetMS.woff2" as="font" type="font/woff2" crossorigin>
+  </head>
+  <body>
+    <div class="products">
+      <div class="products__wrapper">
+        <h1>Ты сегодня покормил кота?</h1>
+        <form class="products__form">
+          <ul class="products__list">
+            <li class="products__item" tabindex="1">
+              <input class="products__checkbox visually-hidden" type="checkbox" name="с фуа-гра" id="fuagra">
+              <label for="fuagra">
+                <div class="products__card">
+                  <picture>
+                    <source type="image/webp" srcset="img/photo.webp, img/photo.png@2x.webp 2x">
+                    <img src="img/photo.png" srcset="img/photo@2x.png" width="368" height="360" alt="котэ">
+                  </picture>
+                  <p>Сказочное заморское яство</p>
+                  <h2>Нямушка</h2>
+                  <h3>с фуа-гра</h3>
+                  <ul>
+                    <li><span>10</span> порций</li>
+                    <li>мышь в подарок</li>
+                  </ul>
+                  <div>
+                    <p>0,5</p>
+                    <span>кг</span>
+                  </div>
+                </div>
+              </label>
+              <span>Печень утки разварная с артишоками.</span>
+              <span>Печалька, с фуа-гра закончился.</span>
+              <p>Чего сидишь? Порадуй котэ, <label for="fuagra">купи.</label></p>
+            </li>
+            <li class="products__item" tabindex="1">
+              <input class="products__checkbox visually-hidden" type="checkbox" name="с рыбой" id="fish" checked>
+              <label for="fish">
+                <div class="products__card">
+                  <picture>
+                    <source type="image/webp" srcset="img/photo.webp, img/photo.png@2x.webp 2x">
+                    <img src="img/photo.png" srcset="img/photo@2x.png" width="368" height="360" alt="котэ">
+                  </picture>
+                  <p>Сказочное заморское яство</p>
+                  <h2>Нямушка</h2>
+                  <h3>с рыбой</h3>
+                  <ul>
+                    <li><span>40</span> порций</li>
+                    <li><span>2</span> мыши в подарок</li>
+                  </ul>
+                  <div>
+                    <p>2</p>
+                    <span>кг</span>
+                  </div>
+                </div>
+              </label>
+              <span>Головы щучьи с чесноком да свежайшая сёмгушка.</span>
+              <span>Печалька, с рыбой закончился.</span>
+              <p>Чего сидишь? Порадуй котэ, <label for="fish">купи.</label></p>
+            </li>
+            <li class="products__item" tabindex="1">
+              <input class="products__checkbox visually-hidden" type="checkbox" name="с курой" id="chicken" disabled>
+              <label for="chicken">
+                <div class="products__card">
+                  <picture>
+                    <source type="image/webp" srcset="img/photo.webp, img/photo.png@2x.webp 2x">
+                    <img src="img/photo.png" srcset="img/photo@2x.png" width="368" height="360" alt="котэ">
+                  </picture>
+                  <p>Сказочное заморское яство</p>
+                  <h2>Нямушка</h2>
+                  <h3>с курой</h3>
+                  <ul>
+                    <li><span>100</span> порций</li>
+                    <li><span>5</span> мышей в подарок</li>
+                    <li>заказчик доволен</li>
+                  </ul>
+                  <div>
+                    <p>5</p>
+                    <span>кг</span>
+                  </div>
+                </div>
+              </label>
+              <span>Филе из цыплят с трюфелями в бульоне.</span>
+              <span>Печалька, с курой закончился.</span>
+              <p>Чего сидишь? Порадуй котэ, <label for="chicken">купи.</label></p>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
